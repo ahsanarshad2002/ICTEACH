@@ -1,0 +1,527 @@
+/* navbar */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+body {
+    background: transparent;
+}
+
+.navbar-toggler {
+    background-color: -webkit-fill-color-transparent !important;
+    -webkit-text-stroke: black !important;
+}
+
+.nav-item a {
+    color: black !important;
+    font-weight: 100;
+    font-size: 2vmin;
+    letter-spacing: 3px;
+}
+
+.navbar-nav {
+    gap: 10px;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu{
+    background-color: white;
+    border: none;
+}
+.dropdown-item:hover{
+    background-color: transparent;
+    margin-left: 2%;
+}
+.dropdown-menu.show {
+    display: block;
+}
+
+
+/* first-section */
+.first-section {
+    overflow: hidden;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.first-section h2 {
+    margin-bottom: 12%;
+    font-size: 6vmin;
+
+}
+
+.first-section h3 {
+    float: right;
+    font-size: 40vmin;
+    margin-top: -60%;
+    letter-spacing: 5px;
+    margin-right: -5.5%;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: .2px black;
+    animation-name: slide-in-right;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.image img {
+    width: 60%;
+}
+
+/* second-section */
+.second-section {
+    overflow: hidden;
+    margin: 10%;
+    margin-top: 5%;
+}
+
+.about-text h3 {
+    margin-bottom: 10%;
+    font-size: 3.5vmin;
+}
+
+.about-text h5 {
+    font-size: 2vmin;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.about-text p {
+    font-weight: 100;
+    font-weight: bold;
+    font-size: 2vmin;
+    gap: 5%;
+    text-align: left;
+}
+
+.about-text a {
+    text-decoration: none;
+}
+
+.what {
+    margin-top: 7%;
+}
+
+.what h2 {
+    font-size: 5vmin;
+    font-weight: bold;
+}
+
+.what p {
+    font-weight: 600;
+    font-size: 2vmin;
+}
+
+.how-help {
+    margin-top: 35%;
+}
+
+.how-help h2 {
+    font-size: 5vmin;
+    font-weight: bold;
+}
+
+.how-help p {
+    font-weight: 600;
+    font-size: 2vmin;
+}
+
+.how-help a {
+    text-decoration: none;
+}
+
+/* third-section */
+.third-section {
+    overflow: hidden;
+    margin: 10%;
+    margin-top: 5%;
+}
+
+.carousel-item {
+    padding: 0 15px;
+}
+
+.carousel-item img {
+    border-radius: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+/* fourth-section */
+.fourth-section {
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+.left-img-fourth img {
+    width: 90%;
+}
+
+.fourth-text {
+    margin-top: 4%;
+    margin-right: 2%;
+}
+
+.fourth-text h2 {
+    font-size: 5vmin;
+}
+
+.fourth-text p {
+    font-size: 2.5vmin;
+    text-align: left;
+}
+
+.fourth-text a {
+    text-decoration: none;
+    margin-top: 3%;
+    border-bottom: 1px solid black;
+    letter-spacing: 3px;
+    color: black;
+    font-weight: 100;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+.outline {
+    display: flex;
+    justify-content: flex-end;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+    font-size: 35vmin;
+    margin-right: -3%;
+    margin-top: -10%;
+    animation-name: slide-in-right;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+/* fivth-section */
+.fivth-section {
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.fivth-head {
+    display: flex;
+    gap: 100px;
+    margin-left: 10%;
+}
+
+.fivth-head h2 {
+    font-weight: bold;
+}
+
+.fivth-section a {
+    margin-top: 1%;
+    font-size: 2vmin;
+    letter-spacing: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.style {
+    margin: 5%;
+}
+
+.fivth-image img {
+    width: 100%;
+}
+
+.fivth-image {
+    margin-top: 3%;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+    margin-top: 80%;
+}
+
+
+
+
+
+/* sixth-section */
+.sixth-section {
+    overflow: hidden;
+}
+
+.sixth-text {
+    margin-left: 7%;
+    margin-bottom: 5%;
+}
+
+.a {
+    margin-bottom: 5%;
+}
+
+.sixth-text h2 {
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.sixth-text a {
+    margin-top: 5%;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 10px;
+}
+
+
+
+
+
+
+/* footer */
+.footer {
+    background-color: #2A2A72;
+    color: #ffffff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo-social {
+    flex: 1;
+}
+
+.logo-social h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.contact-info {
+    flex: 2;
+    margin: 20px 0;
+}
+
+.contact-info p {
+    font-size: 2vmin;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+.newsletter {
+    flex: 1;
+    float: right;
+    width: 30%;
+    margin-top: -30%;
+}
+
+.newsletter p {
+    font-weight: 100;
+    margin-bottom: 10px;
+
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.newsletter input {
+    background: transparent;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1.5px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.newsletter button {
+    padding: 10px;
+    background-color: #ffffff;
+    color: #2A2A72;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+
+@media (min-width:320px) and (max-width:576px) {
+    .image img {
+        margin-top: 15%;
+        width: 90%;
+    }
+
+    .first-section h3 {
+        margin-top: -85%;
+        margin-left: 20%;
+        -webkit-text-stroke: 2px black;
+        font-size: 15vmin;
+        font-weight: bold;
+    }
+
+    .first-section h2 {
+        font-size: 10vmin;
+    }
+
+    .nav-item a {
+        font-size: 5vmin;
+    }
+
+    .about-text h3 {
+        margin-bottom: 10%;
+        font-size: 9.5vmin;
+    }
+
+    .about-text h5 {
+        font-size: 8vmin;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+
+    .about-text p {
+        font-weight: 100;
+        font-weight: bold;
+        font-size: 5vmin;
+        gap: 5%;
+        text-align: left;
+    }
+
+    .about-text a {
+        text-decoration: none;
+    }
+
+    .what {
+        margin-top: 7%;
+    }
+
+    .what h2 {
+        font-size: 8vmin;
+        font-weight: bold;
+    }
+
+    .what p {
+        font-weight: 600;
+        font-size: 5vmin;
+    }
+
+    .how-help {
+        margin-top: 35%;
+    }
+
+    .how-help h2 {
+        font-size: 8vmin;
+        font-weight: bold;
+    }
+
+    .how-help p {
+        font-weight: 600;
+        font-size: 5vmin;
+    }
+
+    .how-help a {
+        text-decoration: none;
+    }
+
+    .col-md-4 {
+        margin-top: 5%;
+    }
+
+    .fourth-text {
+        margin-left: 20%;
+    }
+
+    .newsletter {
+        width: 80%;
+        margin-top: 10%;
+        margin-right: 10%;
+    }
+
+    .footer-bottom {
+        margin-top: 50%;
+        font-size: 2vmin;
+    }
+    
+    .sixth-text h2 {
+        font-size: 5vmin;
+        margin-right: 7%;
+    }
+
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(100%);
+        /* Start off-screen to the right */
+    }
+
+    100% {
+        transform: translateX(0);
+        /* End at the original position */
+    }
+}
